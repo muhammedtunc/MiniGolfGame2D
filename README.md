@@ -14,10 +14,12 @@ Each level has a **maximum stroke limit** — exceed it and you'll have to resta
 
 ## 🚀 How to Run
 
-1. Open the project in **NetBeans**, **IntelliJ IDEA**, **Eclipse** or any Java IDE
-2. Make sure all files are in the golf package
-3. (Optional) Place a nice 32×32 or 64×64 .png icon file and update path in Golf.java
-4. Run the main class → **Golf.java**
+**Compile all .java files**
+`javac minigolf2D/*.java -d .`
+This creates a 'minigolf2D' folder with .class files
+
+**Run the main class**
+`java minigolf2D.Golf`
 
 ## 🎮 How to Play
 
