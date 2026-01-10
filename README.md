@@ -5,8 +5,7 @@
 Mini Golf 2D is a fun, classic-style mini golf game developed in pure **Java Swing**.  
 Drag & shoot mechanic, realistic(ish) ball physics, walls, water hazards (lakes) and multiple challenging levels.
 
-![Gameplay preview](./gameplay)  
-*(Actual screenshot would be nice here 😄)*
+![Gameplay preview](./gameplay.PNG)  
 
 ## 🎯 Game Objective
 
