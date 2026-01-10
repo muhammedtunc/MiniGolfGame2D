@@ -30,11 +30,11 @@ class Golf extends JFrame{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
         
-        ImageIcon icon = new ImageIcon(Golf.class.getResource("/minigolf2D/icon.png"));
-        if (icon.getIconWidth() <= 0) {  // -1 or 0 means failed to load
-            System.err.println("Warning: Could not load icon /minigolf2D/icon.png");
-        }else{
+        try{
+            ImageIcon icon = new ImageIcon(Golf.class.getResource("/minigolf2D/icon.png"));
             frame.setIconImage(icon.getImage());
+        }catch(Exception e){
+            System.out.println("Game icon could not be loaded.");
         }
         
         GamePanel gamePanel = new GamePanel();
@@ -50,4 +50,5 @@ class Golf extends JFrame{
     }
     
 }
+
 
