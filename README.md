@@ -16,7 +16,7 @@ Each level has a **maximum stroke limit** — exceed it and you'll have to resta
 
 **Compile all .java files**
 
-`cd MiniGolfGame2D-main`
+`cd MiniGolfGame2D-main`\
 `javac minigolf2D/*.java -d .`
 This creates a 'minigolf2D' folder with .class files
 
