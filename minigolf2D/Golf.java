@@ -13,7 +13,6 @@ import javax.swing.JFrame;
  */
 
 import javax.swing.JPanel;
-import minigolf2D.GamePanel.InfoPanel;
 import javax.swing.ImageIcon;
 
 

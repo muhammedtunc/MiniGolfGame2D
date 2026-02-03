@@ -55,7 +55,7 @@ public class GamePanel extends JPanel implements MouseListener, MouseMotionListe
     private boolean levelComplete = false;
     
     private JComboBox<String> levelBox = new JComboBox<>();
-    private DefaultComboBoxModel model = new DefaultComboBoxModel();
+    private DefaultComboBoxModel<String> model = new DefaultComboBoxModel<String>();
     private ArrayList<Integer> seenLevels = new ArrayList<>();
     
     JLabel strokesLabel;

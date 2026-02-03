@@ -12,17 +12,6 @@ Drag & shoot mechanic, realistic(ish) ball physics, walls, water hazards (lakes)
 Get the white golf ball into the black hole using as few strokes as possible.  
 Each level has a **maximum stroke limit** — exceed it and you'll have to restart!
 
-## 🚀 How to Run
-
-**Compile all .java files**
-
-`cd MiniGolfGame2D-main`\
-`javac minigolf2D/*.java -d .`
-This creates a 'minigolf2D' folder with .class files
-
-**Run the main class**
-`java minigolf2D.Golf`
-
 ## 🎮 How to Play
 
 - **Mouse drag** from ball → determines **direction** and **power**
